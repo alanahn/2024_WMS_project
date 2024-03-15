@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>W02_my page</title>
+    <style>
+        html, body {margin: 0; padding: 0; height: 100%;}
+        header {
+            width: 100%;
+            height: 15%;
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
+
+    <header>aa</header>
+    <nav></nav>
+    <section>
     <h1 title="h1태그로 작성하였음.">홈페이지 만들기</h1>
     <h2>홈페이지 만들기</h2>
     <h6>홈페이지 만들기</h6>
@@ -35,7 +47,7 @@
     <img src="https://i.namu.wiki/i/R0AhIJhNi8fkU2Al72pglkrT8QenAaCJd1as-d_iY6MC8nub1iI5VzIqzJlLa-1uzZm--TkB-KHFiT-P-t7bEg.webp" width="150px" alt="아이유 사진">
 
     <ol type="A">
-        <li>물을 끓인다.</li>
+        <li><a href="#_table">물을 끓인다.</a></a></li>
         <li>면과 스프를 넣는다.</li>
         <li>파송송/계란탁!</li>
         <li>2분 후 먹는다.</li>
@@ -60,5 +72,54 @@
             <li>2분 후 먹는다.</li>
         </ul>
     </ol>
+
+    <dl>
+        <dt><strong>마이크로소프트에서 만든 브라우저 : 엣지!</strong>
+            <dd>현재 국내에서 많이씀?</dd>
+        </dt>
+        <dt><strong>애플에서 만든 브라우저 : 사파리!</strong>
+            <dd>전세계에서 가장 좋은 브라우저</dd>
+
+        </dt>
+    </dl>
+
+    <table border="1" id="_table">
+        <caption>마이크로소프트에서 만든 브라우저 : 엣지!</caption>
+        <thead>현재 국내에서 많이씀?</thead>
+        <tr>
+            <th>111</th><th>222</th>
+        </tr>
+        <tfoot><th>111</th><th>222</th></tfoot>
+        <tbody><td><img src="https://i.namu.wiki/i/R0AhIJhNi8fkU2Al72pglkrT8QenAaCJd1as-d_iY6MC8nub1iI5VzIqzJlLa-1uzZm--TkB-KHFiT-P-t7bEg.webp" width="150px" alt="아이유 사진"></td><td>222</td></tbody>
+        <a href="https://youtube.com">유튜브 이동</a>
+
+    </table>
+
+
+    <a href="https://i.namu.wiki/i/R0AhIJhNi8fkU2Al72pglkrT8QenAaCJd1as-d_iY6MC8nub1iI5VzIqzJlLa-1uzZm--TkB-KHFiT-P-t7bEg.webp" download> 아이유 다운로드</a>
+
+    <iframe src="http://www.etnews.com" name="left" width="500" height="500"></iframe>
+    <iframe src="http://loiedai.run.goorm.io/" name="right" width="500" height="500"></iframe>
+
+    <video src="#" width="200" height="180" controls>브라우저가 video태그를 지원하지 않습니다.</video>
+    <audio src="#" controls loop>브라우저가 video태그를 지원하지 않습니다.</audio>
+
+    </section>
+
+    <section>
+        <form name="fo" method="get">
+            사용자 ID : <input type="text" size="15" value=""><br>
+            비밀번호 : <input type="password" size="15" value=""><br>
+            <input type="submit" value="완료">
+<textarea cols="20" rows="5"> 긴 내용</textarea>
+            <button type="button">ddd</button>
+            <input type="checkbox" value="1">ddd
+            <input type="checkbox" value="2">ddd
+        </form>
+    </section>
+
+    <aside></aside>
+
+    <footer>회사의 정보 / 로고</footer>
 </body>
 </html>
